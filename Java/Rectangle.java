@@ -3,7 +3,6 @@ public class Rectangle {
     private double length;
     private static int numRectangles = 0;
 
-
     public static void staticMethod() {
         System.out.println("This is a static method");
         System.out.println("Number of rectangles: " + numRectangles);
@@ -39,7 +38,7 @@ public class Rectangle {
         return this.length;
     }
 
-    public void display(){
+    public void display() {
         System.out.println("Width: " + this.width);
         System.out.println("Length: " + this.length);
     }
