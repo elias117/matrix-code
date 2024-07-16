@@ -1,4 +1,5 @@
 public class Bank {
+    // Hello Mike from github
     // instance variables
     private double balance;
     private String name;
@@ -6,7 +7,6 @@ public class Bank {
     // static variables
     private static int numberOfAccounts = 0;
     private static double interestRate = 0.02;
-
 
     // non static methods
     // constructor
