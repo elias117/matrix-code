@@ -6,13 +6,13 @@ public class Course {
     }
 
     public void printStudents() {
-        for(int i = 0; i < students.length; i++){
+        for (int i = 0; i < students.length; i++) {
             System.out.println(students[i]);
         }
 
         // enhanced for loop
         // for (String student : students) {
-        //     System.out.println(student);
+        // System.out.println(student);
         // }
     }
 }
