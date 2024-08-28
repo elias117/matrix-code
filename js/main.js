@@ -3,12 +3,12 @@ console.log("Hello World");
 
 // int x = 5;
 // Primitive types of variables in javascript
-Number, String, Boolean, Object, Undefined, Null
+Number, String, Boolean, Object, Undefined, Null;
 let variable_number = 5.6; // number. Can be integer or float
-variable_number = "foobar" // changing the type of variable to string
+variable_number = "foobar"; // changing the type of variable to string
 let variable_string = "Hello World"; // string
 let variable_boolean = true; // boolean
-let variable_object = {elias: "32"}; // object
+let variable_object = { elias: "32" }; // object
 let variable_undefined = undefined; // undefined
 
 // Arrays
@@ -29,7 +29,9 @@ let c = a + b;
 console.log("The value of c is: " + c);
 // formatted strings in javascript
 console.log(`The value of c is: ${a + b}`);
-console.log(`This is a formatted string. I can print any variable here. By using $ { } and placing the variable ${c}`);
+console.log(
+    `This is a formatted string. I can print any variable here. By using $ { } and placing the variable ${c}`
+);
 
 // if statements
 if (c > 10) {
@@ -40,7 +42,6 @@ if (c > 10) {
     console.log("The value of c is less than 10");
 }
 
-
 // for loop
 //   start;       end;  increment;
 for (let i = 0; i < 10; i++) {
@@ -50,7 +51,7 @@ for (let i = 0; i < 10; i++) {
 // while loop
 // start
 let i = 0;
-       // end
+// end
 while (i < 10) {
     console.log(`The value of i is: ${i}`);
     // increment
@@ -68,7 +69,6 @@ console.log(my_array[3]);
 console.log(my_array.at(-4));
 let length_of_array = my_array.length;
 
-
 // function examples
 function add(a, b) {
     return a + b;
@@ -80,13 +80,11 @@ function subtract(a, b) {
 // creating arrow function
 let multiply = (a, b) => {
     return a * b;
-}
+};
 
 // calling the function
 let answer = add(5, 6);
 console.log(`The value of 5 + 6 is: ${answer}`);
-
-
 
 // object example
 let my_object = {
@@ -99,11 +97,13 @@ let my_object = {
         street: "123 Main St",
         city: "New York",
         state: "NY",
-        zip: 10001
-    }
-}
+        zip: 10001,
+    },
+};
 
-console.log(`The name of the person is: ${my_object.name} and the age of the person is ${my_object.age}`);
+console.log(
+    `The name of the person is: ${my_object.name} and the age of the person is ${my_object.age}`
+);
 console.log(`The first grade of the person are: ${my_object.grades[0]}`);
 console.log(my_object.grades);
 console.log(`The street of the person is: ${my_object.address.city}`);
