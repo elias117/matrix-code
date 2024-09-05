@@ -1,7 +1,7 @@
 let myArray = [["This", "is", "a nested", "array"], "World", "JavaScript"];
 
 // let anotherArray = myArray[0]; // anotherArray = ["This", "is", "a nested", "array"]
-// console.log(anotherArray[2]); 
+// console.log(anotherArray[2]);
 
 
 let myObject = {
