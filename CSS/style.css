@@ -1,12 +1,12 @@
-#firstContainer{
+#firstContainer {
     color: red;
 }
 
-#secondContainer{
+#secondContainer {
     color: blue;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,7 +15,7 @@ body{
     background-color: #f0f0f0;
 }
 
-.clockContainer{
+.clockContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,4 +24,13 @@ body{
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border: 2px solid black;
+}
+
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    justify-content: center;
 }
